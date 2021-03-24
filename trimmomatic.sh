@@ -1,6 +1,6 @@
 #!/bin/bash
 #Usage: sh trimmomatic.sh <path to input files>
-#lmc297@cornell.edu
+#lmc297@cornell.edu 
 #jk2739@cornell.edu
 
 cd $1
