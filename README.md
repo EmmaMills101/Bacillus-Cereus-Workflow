@@ -31,5 +31,5 @@ abricate --summary megares.results.tab > ncbi.summary.tab
 #AMR Gene Detection of Processed Reads - Abriba v2.14.6 - Databases: MEGARES and Resfinder 
 ariba run out.megares.prepareref/ SRR2541537_R1.trimmedP.fastq.gz SRR2541537_R2.trimmedP.fastq.gz SRR2541537
 
-#Virulence, MLST, panC Group, and Species Identification - Btyper3 v3.1.0
+#Virulence, MLST, panC Group, and Species Identification - Btyper3 v3.1.0v 
 sh btyper3.sh
