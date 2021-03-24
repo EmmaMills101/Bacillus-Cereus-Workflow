@@ -15,6 +15,9 @@ sh trimmomatic.sh
 #Assembling Draft Genomes - SPAdes v3.15
 sh spades.sh
 
+#Checking Assembly Quality - QUAST v5.0.2
+sh quast.sh
+
 #Annontating Genomes - PROKKA v1.14.6
 prokka ../all_assemblies/SRR2541537.fasta -outdir SRR2541537 --prefix H7-0926
 
