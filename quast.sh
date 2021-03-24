@@ -8,7 +8,7 @@ mkdir quast_results
 
 for f in *.fasta
 do
-python quast.py -o ./quast_results/quast_${f%_contigs.fasta} --min-contig 1 $f
+python3 quast.py -o ./quast_results/quast_${f%_contigs.fasta} --min-contig 1 $f
 done
 
 mkdir quast_reports
