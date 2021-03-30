@@ -1,7 +1,6 @@
 #!/bin/bash
 #Usage: sh spades.sh <path to input files>
-#ms984@cornell.edu
-#lmc297@cornell.edu
+
 
 cd $1
 
