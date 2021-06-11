@@ -1,4 +1,4 @@
-This github page outlines the bioinformatic process for [name of paper] by Jasna Kovac, Emma Mills, and Erin Sullivan. All tools were used and installed via Python 3.7.9. For specific tool directions and more information please visit their respective github pages listed below. See "Workflow" for commands and parameters used specifically in this project. 
+This github page outlines the bioinformatic process for characterizing 85 Bacillus cereus isolates from authors Emma Mills, Jasna Kovac, and Erin Sullivan. All tools were used and installed via Python 3.7.9. For specific tool directions and more information please visit their respective github pages listed below. See "Workflow" for commands and parameters used specifically in this project. 
 
 SRA toolkit: https://github.com/ncbi/sra-tools
 FastQC: https://github.com/s-andrews/FastQC
