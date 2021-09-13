@@ -29,7 +29,7 @@ raxmlHPC -f a -x 165 -m GTRGAMMA -p 12345 -s core_gene_alignment.aln -n TEST -T 
 
 #AMR Gene Detection of Draft Genomes - Abricate v1.0.1 - Databases: NCBI, MEGARES, and Resfinder
 abricate --db megagres *.fasta > megares.results.tab
-abricate --summary megares.results.tab > ncbi.summary.tab
+abricate --summary megares.results.tab > megares.summary.tab
 
 #AMR Gene Detection of Processed Reads - Abriba v2.14.6 - Databases: MEGARES and Resfinder 
 ariba run out.megares.prepareref/ SRR2541537_R1.trimmedP.fastq.gz SRR2541537_R2.trimmedP.fastq.gz SRR2541537
