@@ -27,7 +27,7 @@ roary -e --dont_delete_files --mafft -g 80000 --p 8  */*.gff -e
 #Phylogentic Inference - RAxML v8.2.12
 raxmlHPC -f a -x 165 -m GTRGAMMA -p 12345 -s core_gene_alignment.aln -n TEST -T 50 -N 1000
 
-#AMR Gene Detection of Draft Genomes - Abricate v1.0.1 - Databases: NCBI, MEGARES, and Resfinder
+#AMR Gene Detection of Draft Genomes - Abricate v1.0.1 - Databases: MEGARES, and Resfinder
 abricate --db megagres *.fasta > megares.results.tab
 abricate --summary megares.results.tab > megares.summary.tab
 
